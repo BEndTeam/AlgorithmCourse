@@ -4,15 +4,15 @@
   "description": "这个仓库用来学习二维(Canvas)和三维(WebGPU)图像",
   "main": "index.js",
   "directories": {
-    "doc": "docs"
+    "doc": "./"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:serve": "vitepress serve"
   },
   "dependencies": {
-    "vitepress": "^0.21.6"
+    "vitepress": "^0.22.3"
   },
   "repository": {
     "type": "git",
